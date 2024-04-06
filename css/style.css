@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: rgb(180, 183, 41);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__title {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__item {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 63px;
+}
+
+.choose {
+    color: rgb(0, 196, 240);
+}
+
+.hero-block {
+    background: rgb(226, 203, 0);
+}
+
+.container_hero-block {
+    display: flex;
+    padding: 75px 0 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-block__content {
+    width: 453px;
+}
+
+.hero-block__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-block__text {
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.hero-block__link {
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    background: linear-gradient(135.00deg, rgb(226, 163, 0), rgb(226, 149, 0) 100%);
+    padding: 15px 20px;
+}
+
+.about {
+    background: rgb(203, 183, 0);
+}
+
+.container_about {
+    padding: 70px 0px 40px;
+}
+
+.about__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 97px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate__title {
+    margin-bottom: 72px;
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.rate__list{
+    list-style: none;
+}
+.rate__name{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.rate__full{
+    width: 287px;
+    height: 10px;
+    background: rgb(0, 196, 240);
+}
+.rate__item:not(:last-child){
+margin-bottom: 35px;
+}
+.rate__done{
+    height: 10px;
+    background: rgb(44, 44, 44);
+}
+.bloodsuker{
+    width: 80%;
+}
+.necromancer{
+    width: 50%;
+}
+.video{
+    background: rgb(185, 166, 0);
+}
+.container_video{
+    padding: 70px 0px 94px;
+}
+.video__title{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 51px;
+}
+.video__video{
+    width: 100%;
+    height: 659px;
+    border: 50px solid rgb(65, 65, 65);
+    border-radius: 29px;
+    box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+    box-sizing: border-box;
+}
+.galery{
+    background: rgb(160, 144, 0);
+    padding: 70px 0px 120px;
+} 
+.galery__title{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 99px;
+}
+.galery__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galery__item{
+    padding: 30px;
+}
+.footer{
+    background: rgb(160, 144, 0);
+}
+.contaier_footer{
+    padding: 50px 0px 52px;
+}
+.footer__title{
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer__text{
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
